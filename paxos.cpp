@@ -22,6 +22,7 @@ Orientador: Prof. Elias P. Duarte Jr.
 #define test 1
 #define fault 2
 #define repair 3
+#define propose 4
 
 typedef struct{
     int id; //cada nodo tem um id
@@ -30,7 +31,33 @@ typedef struct{
 }tnodo;
 
 // int N, token;
+std:: vector< std:: pair<int, int>> propostas;
 std:: vector<tnodo> nodo;
+std:: vector<std:: pair<int, int>> maiornumerorecebido;
+std:: vector<int> responsesrecebidas;
+int enviados = 0;
+
+// o processo proposer recebe a resposta do acceptor contendo o numero da maior proposta
+// recebida e tambem o valor (se for 0, é NULL, significa que ainda nao aceitou a proposta)
+void send_prepareresponse(int acceptor, int proposer, int nproposta, int vproposta){
+    printf("O processo %d recebeu do processo %d o prepare response contendo o numero %d e o valor %d\n",
+    proposer, acceptor, nproposta, vproposta);
+    // aqui o proposer comeca a execucao da fase 2 do algoritmo
+    //
+}
+
+// essa funcao representa o processo acceptor na fase 1 do algoritmo
+void send_preparerequest(int sender, int receiver, int numeroproposta){
+    printf("O processo %d recebeu a proposta de numero %d do processo %d\n", receiver, numeroproposta, sender);
+    // se a proposta recebida tem numero maior do que a maior ja recebida anteriormente,
+    // entao responde ao prepare request com um prepare response contendo o numero n da maior
+    // proposta recebida e a promessa de nao aceitar nenhuma proposta com numero menor
+    if(numeroproposta > maiornumerorecebido[receiver].first){
+        maiornumerorecebido[receiver].first = numeroproposta;
+        responsesrecebidas[sender]++;
+        send_prepareresponse(receiver, sender, maiornumerorecebido[receiver].first, maiornumerorecebido[receiver].second != 0);
+    }
+}
 
 void print_init(){
 	printf ("===========================================================\n");
@@ -62,6 +89,12 @@ int main(int argc, char const *argv[]) {
 	stream(1);
 
     nodo.resize(N);
+    maiornumerorecebido.resize(N);
+    responsesrecebidas.resize(N);
+    propostas.push_back(std::make_pair(1, 5));
+
+    // printf(">%d >%d >%d\n", maiornumerorecebido[0], maiornumerorecebido[1], maiornumerorecebido[2]);
+    // printf(">>> %d\n", propostas[0].first);
 
     for (int i = 0; i < N; i++) {
         memset(fa_name, '\0', 5);
@@ -69,6 +102,7 @@ int main(int argc, char const *argv[]) {
         nodo[i].id = facility(fa_name, 1);
         nodo[i].idr = i;
         nodo[i].papel.resize(1);
+        nodo[i].papel[0] = 2;
     }
 
     print_init();
@@ -76,7 +110,10 @@ int main(int argc, char const *argv[]) {
     for (int i = 0; i < N; i++)
         schedule(test, 30.0, i);
 
-    while(time() < 250.0) {
+    schedule(fault, 140.0, 4);
+    schedule(propose, 100.0, 2);
+
+    while(time() < 150.0) {
    	 	cause(&event, &token); //causa o proximo evento
    	 	switch(event) {
             case test:
@@ -86,6 +123,8 @@ int main(int argc, char const *argv[]) {
 			}else{
 				// nodosemfalha++;  //contabiliza nodos SEM-FALHA
 			}
+
+            schedule(test, 30.0, token);
 			break;
 
 			case fault:
@@ -96,16 +135,28 @@ int main(int argc, char const *argv[]) {
 	 		}
 				printf("EVENTO: O nodo %d falhou no tempo %5.1f\n", token, time());
 
-//-----------------------a cada evento, recalcula o vetor tests----------------------------------
 			break;
 
 	 		case repair:
 	 		release(nodo[token].id, token);
 	 		printf("EVENTO: O nodo %d recuperou no tempo %5.1f\n", token, time());
 
-
 			schedule(test, 30.0, token);
 			break;
+
+            case propose:
+            // aqui o nodo token (proposer coordenador) precisa saber quais processos sao acceptors,
+            // para enviar o prepare request para uma maioria de acceptors
+            // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
+
+            //envia para os processos acceptors o numero da proposta (first no pair)
+            for(int i = 0; i < N; i ++){
+                if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
+                    enviados++;
+                    send_preparerequest(token, i, propostas[0].first);
+                }
+            }
+            break;
 	 	}
 	}
 
