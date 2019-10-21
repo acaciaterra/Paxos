@@ -26,7 +26,7 @@ Orientador: Prof. Elias P. Duarte Jr.
 
 typedef struct{
     int id; //cada nodo tem um id
-	int idr; //id real!!!
+	int idr; //id real do nodo
 	std:: vector<int> papel; //cada processo pode assumir um ou mais papeis
 }tnodo;
 
@@ -34,7 +34,8 @@ typedef struct{
 std:: vector< std:: pair<int, int>> propostas;
 std:: vector<tnodo> nodo;
 std:: vector<std:: pair<int, int>> maiornumerorecebido;
-std:: vector<int> responsesrecebidas;
+// blablabla
+std:: vector< std:: pair<int, int>> respostas;
 int enviados = 0;
 
 // o processo proposer recebe a resposta do acceptor contendo o numero da maior proposta
@@ -43,18 +44,21 @@ void send_prepareresponse(int acceptor, int proposer, int nproposta, int vpropos
     printf("O processo %d recebeu do processo %d o prepare response contendo o numero %d e o valor %d\n",
     proposer, acceptor, nproposta, vproposta);
     // aqui o proposer comeca a execucao da fase 2 do algoritmo
-    //
+    // o proposer deve verificar se recebeu a resposta de uma maioria de acceptors
+    printf("\n\t>>>>>>>>>>>> enviados: %d recebidos: %d\n", respostas[nproposta - 1].first, respostas[0].second);
 }
 
 // essa funcao representa o processo acceptor na fase 1 do algoritmo
 void send_preparerequest(int sender, int receiver, int numeroproposta){
+	//sender = proposer e receiver = acceptor
     printf("O processo %d recebeu a proposta de numero %d do processo %d\n", receiver, numeroproposta, sender);
     // se a proposta recebida tem numero maior do que a maior ja recebida anteriormente,
     // entao responde ao prepare request com um prepare response contendo o numero n da maior
     // proposta recebida e a promessa de nao aceitar nenhuma proposta com numero menor
     if(numeroproposta > maiornumerorecebido[receiver].first){
         maiornumerorecebido[receiver].first = numeroproposta;
-        responsesrecebidas[sender]++;
+        // responsesrecebidas[sender]++;
+        respostas[numeroproposta - 1].second++;
         send_prepareresponse(receiver, sender, maiornumerorecebido[receiver].first, maiornumerorecebido[receiver].second != 0);
     }
 }
@@ -90,7 +94,7 @@ int main(int argc, char const *argv[]) {
 
     nodo.resize(N);
     maiornumerorecebido.resize(N);
-    responsesrecebidas.resize(N);
+    // responsesrecebidas.resize(N);
     propostas.push_back(std::make_pair(1, 5));
 
     // printf(">%d >%d >%d\n", maiornumerorecebido[0], maiornumerorecebido[1], maiornumerorecebido[2]);
@@ -149,10 +153,12 @@ int main(int argc, char const *argv[]) {
             // para enviar o prepare request para uma maioria de acceptors
             // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
 
+            respostas.push_back(std:: make_pair(0,0));
             //envia para os processos acceptors o numero da proposta (first no pair)
             for(int i = 0; i < N; i ++){
                 if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
                     enviados++;
+                    respostas[0].first++;
                     send_preparerequest(token, i, propostas[0].first);
                 }
             }
