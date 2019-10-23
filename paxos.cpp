@@ -45,7 +45,11 @@ void send_prepareresponse(int acceptor, int proposer, int nproposta, int vpropos
     proposer, acceptor, nproposta, vproposta);
     // aqui o proposer comeca a execucao da fase 2 do algoritmo
     // o proposer deve verificar se recebeu a resposta de uma maioria de acceptors
-    printf("\n\t>>>>>>>>>>>> enviados: %d recebidos: %d\n", respostas[nproposta - 1].first, respostas[0].second);
+    printf("\n----------------------------------------\n");
+    printf("Proposta numero: %d\n", nproposta);
+    printf("prepare request enviados: %d\n", respostas[nproposta - 1].first);
+    printf("prepare response recebidos: %d\n", respostas[0].second);
+    printf("----------------------------------------\n\n");
 }
 
 // essa funcao representa o processo acceptor na fase 1 do algoritmo
@@ -55,12 +59,6 @@ void send_preparerequest(int sender, int receiver, int numeroproposta){
     // se a proposta recebida tem numero maior do que a maior ja recebida anteriormente,
     // entao responde ao prepare request com um prepare response contendo o numero n da maior
     // proposta recebida e a promessa de nao aceitar nenhuma proposta com numero menor
-    if(numeroproposta > maiornumerorecebido[receiver].first){
-        maiornumerorecebido[receiver].first = numeroproposta;
-        // responsesrecebidas[sender]++;
-        respostas[numeroproposta - 1].second++;
-        send_prepareresponse(receiver, sender, maiornumerorecebido[receiver].first, maiornumerorecebido[receiver].second != 0);
-    }
 }
 
 void print_init(){
@@ -161,6 +159,22 @@ int main(int argc, char const *argv[]) {
                     respostas[0].first++;
                     send_preparerequest(token, i, propostas[0].first);
                 }
+            }
+            for(int i = 0; i < N; i ++){
+                if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
+                    if(propostas[0].first > maiornumerorecebido[i].first){
+                        maiornumerorecebido[i].first = propostas[0].first;
+                        // responsesrecebidas[sender]++;
+                        respostas[propostas[0].first - 1].second++;
+                        send_prepareresponse(i, token, maiornumerorecebido[i].first, maiornumerorecebido[i].second);
+                        // send_prepareresponse(receiver, sender, maiornumerorecebido[receiver].first, maiornumerorecebido[receiver].second);
+                    }
+                }
+            }
+            // verifica se recebeu a maioria das respostas para aquela proposta
+            // no caso, a proposta 1, porque esse trabalho esta ficando simples demais
+            if(respostas[0].second >= (respostas[nproposta - 1].first / 2)){
+
             }
             break;
 	 	}
