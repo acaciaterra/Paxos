@@ -38,6 +38,7 @@ std:: vector<std:: pair<int, int>> maiornumerorecebido;
 std:: vector< std:: pair<int, int>> respostas;
 std:: vector< std::vector <int>> quemrespondeu;
 int enviados = 0;
+int npropostaatual = 0;
 
 // o processo proposer recebe a resposta do acceptor contendo o numero da maior proposta
 // recebida e tambem o valor (se for 0, é NULL, significa que ainda nao aceitou a proposta)
@@ -62,9 +63,9 @@ void send_preparerequest(int sender, int receiver, int numeroproposta){
     // proposta recebida e a promessa de nao aceitar nenhuma proposta com numero menor
 }
 
-// parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela 
+// parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela
 void send_acceptrequest(int sender, int receiver, int num, int val){
-    printf("O processo %d enviou um accept request para o processo %d contendo o numero %d e o valor %d", sender, receiver, num, val);
+    printf("O processo %d enviou um accept request para o processo %d contendo o numero %d e o valor %d\n", sender, receiver, num, val);
 }
 
 void print_init(){
@@ -114,12 +115,13 @@ int main(int argc, char const *argv[]) {
         nodo[i].papel[0] = 2;
     }
 
+    nodo[2].papel[0] = 1;
     print_init();
 
     for (int i = 0; i < N; i++)
         schedule(test, 30.0, i);
 
-    schedule(fault, 140.0, 4);
+    schedule(fault, 70.0, 4);
     schedule(propose, 100.0, 2);
 
     while(time() < 150.0) {
@@ -158,6 +160,7 @@ int main(int argc, char const *argv[]) {
             // para enviar o prepare request para uma maioria de acceptors
             // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
 
+            printf("O processo %d esta fazendo o propose!\n\n", token);
             respostas.push_back(std:: make_pair(0,0));
             //envia para os processos acceptors o numero da proposta (first no pair)
             for(int i = 0; i < N; i ++){
@@ -175,6 +178,7 @@ int main(int argc, char const *argv[]) {
                         respostas[propostas[0].first - 1].second++;
                         // aqui: quem respondeu a mensagem do token foi o processo i
                         quemrespondeu[token].push_back(i);
+                         npropostaatual = maiornumerorecebido[i].first;
                         send_prepareresponse(i, token, maiornumerorecebido[i].first, maiornumerorecebido[i].second);
                         // send_prepareresponse(receiver, sender, maiornumerorecebido[receiver].first, maiornumerorecebido[receiver].second);
                     }
@@ -182,25 +186,24 @@ int main(int argc, char const *argv[]) {
             }
             // verifica se recebeu a maioria das respostas para aquela proposta
             // no caso, a proposta 1, porque esse trabalho esta ficando simples demais
-            if(respostas[0].second >= (respostas[nproposta - 1].first / 2)){
-                printf("Recebeu resposta da maioria!\n");
+            if(respostas[0].second >= (respostas[npropostaatual - 1].first / 2)){
+                printf(">>> Recebeu resposta da maioria!!\n");
                 // agora o proposer envia o accept request para os processos dos quais recebeu a resposta
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
-                    // parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela 
+                    // parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela
                     if(status(nodo[quemrespondeu[token][i]].id) == 0)
                         send_acceptrequest(token, quemrespondeu[token][i], propostas[0].first, propostas[0].second);
                 }
             }
 
-            if(respostas[0].second >= (respostas[nproposta - 1].first / 2)){
+            if(respostas[0].second >= (respostas[npropostaatual - 1].first / 2)){
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
                     if(status(nodo[quemrespondeu[token][i]].id) == 0)
-                        printf("processo %d decidiu pelo valor %d\n", quemrespondeu[token][i]].idr, propostas[0].second);
+                        printf("processo %d decidiu pelo valor %d\n", quemrespondeu[token][i], propostas[0].second);
                 }
             }
 
-            // proximos passos: 
-            // testar
+            // proximos passos:
             // cobrir outros casos. exemplo: acceptors ja terem aceitado a proposta
             // verificar se esta sendo sempre verificado o estado de um processo
             // passar as propostas pelo arquivo de entrada
