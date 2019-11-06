@@ -1,0 +1,76 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+EVENTO: O nodo 4 falhou no tempo  70.0
+O processo 2 esta fazendo o propose!
+
+O processo 0 recebeu a proposta de numero 1 do processo 2
+O processo 1 recebeu a proposta de numero 1 do processo 2
+O processo 3 recebeu a proposta de numero 1 do processo 2
+O processo 5 recebeu a proposta de numero 1 do processo 2
+O processo 6 recebeu a proposta de numero 1 do processo 2
+O processo 7 recebeu a proposta de numero 1 do processo 2
+O processo 2 recebeu do processo 0 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 2 recebeu do processo 1 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 2 recebeu do processo 3 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 3
+----------------------------------------
+
+O processo 2 recebeu do processo 5 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 4
+----------------------------------------
+
+O processo 2 recebeu do processo 6 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 5
+----------------------------------------
+
+O processo 2 recebeu do processo 7 o prepare response contendo o numero 1 e o valor 0
+
+----------------------------------------
+Proposta numero: 1
+prepare request enviados: 6
+prepare response recebidos: 6
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 2 enviou um accept request para o processo 0 contendo o numero 1 e o valor 5
+O processo 2 enviou um accept request para o processo 1 contendo o numero 1 e o valor 5
+O processo 2 enviou um accept request para o processo 3 contendo o numero 1 e o valor 5
+O processo 2 enviou um accept request para o processo 5 contendo o numero 1 e o valor 5
+O processo 2 enviou um accept request para o processo 6 contendo o numero 1 e o valor 5
+O processo 2 enviou um accept request para o processo 7 contendo o numero 1 e o valor 5
+processo 0 decidiu pelo valor 5
+processo 1 decidiu pelo valor 5
+processo 3 decidiu pelo valor 5
+processo 5 decidiu pelo valor 5
+processo 6 decidiu pelo valor 5
+processo 7 decidiu pelo valor 5
