@@ -28,6 +28,7 @@ typedef struct{
     int id; //cada nodo tem um id
 	int idr; //id real do nodo
 	std:: vector<int> papel; //cada processo pode assumir um ou mais papeis
+    int reg; // se o 'registrador' for 0, significa que esse processo ainda nao decidiu
 }tnodo;
 
 // int N, token;
@@ -123,9 +124,10 @@ int main(int argc, char const *argv[]) {
         nodo[i].idr = i;
         nodo[i].papel.resize(1);
         nodo[i].papel[0] = 2;
+        nodo[i].reg = 0;
     }
 
-    nodo[2].papel[0] = 1;
+    // nodo[2].papel[0] = 1;
     print_init();
     printf("Numero de nodos no sistema: %d\n", N);
 
@@ -183,6 +185,10 @@ int main(int argc, char const *argv[]) {
 
             printf("O processo %d esta fazendo o propose!\n\n", token);
             respostas.push_back(std:: make_pair(0,0));
+
+            //apaga todas as respostas anteriores, para caso receba uma nova proposta
+            quemrespondeu[token].erase(quemrespondeu[token].begin(), quemrespondeu[token].end());
+
             int pos = respostas.size()-1;
             //envia para os processos acceptors o numero da proposta (first no pair)
             for(int i = 0; i < N; i ++){
@@ -196,6 +202,7 @@ int main(int argc, char const *argv[]) {
                 if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
                     if(propostas[token + N * numeros[token]].first > maiornumerorecebido[i].first){
                         maiornumerorecebido[i].first = propostas[token + N * numeros[token]].first;
+                        // printf(">>>>>>>>>>>>>>>>>>> %d e %d\n", propostas[token + N * numeros[token]].first, propostas[token + N * numeros[token]].second);
                         // responsesrecebidas[sender]++;
                         respostas[pos].second++;
                         // aqui: quem respondeu a mensagem do token foi o processo i
@@ -213,15 +220,25 @@ int main(int argc, char const *argv[]) {
                 // agora o proposer envia o accept request para os processos dos quais recebeu a resposta
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
                     // parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela
-                    if(status(nodo[quemrespondeu[token][i]].id) == 0)
+                    if(status(nodo[quemrespondeu[token][i]].id) == 0 && nodo[quemrespondeu[token][i]].reg == 0)
                         send_acceptrequest(token, quemrespondeu[token][i], propostas[token + N * numeros[token]].first, propostas[token + N * numeros[token]].second);
                 }
             }
 
             if(respostas[pos].second >= (respostas[pos].first / 2)){
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
-                    if(status(nodo[quemrespondeu[token][i]].id) == 0)
+                    if(status(nodo[quemrespondeu[token][i]].id) == 0 && nodo[quemrespondeu[token][i]].reg == 0){
+                        nodo[quemrespondeu[token][i]].reg = propostas[token + N * numeros[token]].second;
                         printf("processo %d decidiu pelo valor %d\n", quemrespondeu[token][i], propostas[token + N * numeros[token]].second);
+                        printf("O nodo %d atualizou seu proprio registrador com o valor %d\n", nodo[quemrespondeu[token][i]].idr, propostas[token + N * numeros[token]].second);
+                        for(int i = 0; i < N; i++){
+                            maiornumerorecebido[i].second = propostas[token + N * numeros[token]].second;
+                            if(status(nodo[i].id) == 0 && nodo[i].reg == 0){
+                                nodo[i].reg = propostas[token + N * numeros[token]].second;
+                                printf("O processo %d aprendeu o valor %d e atualizou seu registrador\n", nodo[i].idr, propostas[token + N * numeros[token]].second);
+                            }
+                        }
+                    }
                 }
             }
 
