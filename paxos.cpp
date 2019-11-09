@@ -23,6 +23,10 @@ Orientador: Prof. Elias P. Duarte Jr.
 #define fault 2
 #define repair 3
 #define propose 4
+#define etapa1 5
+#define etapa2 6
+#define etapa3 7
+#define etapa4 8
 
 typedef struct{
     int id; //cada nodo tem um id
@@ -63,6 +67,9 @@ void send_preparerequest(int sender, int receiver, int numeroproposta){
     // se a proposta recebida tem numero maior do que a maior ja recebida anteriormente,
     // entao responde ao prepare request com um prepare response contendo o numero n da maior
     // proposta recebida e a promessa de nao aceitar nenhuma proposta com numero menor
+    if(numeroproposta > maiornumerorecebido[receiver].first){
+        maiornumerorecebido[receiver].first = numeroproposta;
+    }
 }
 
 // parametros: quem envia a mensagem, quem recebe, o numero da proposta e o valor dela
@@ -79,7 +86,7 @@ void print_init(){
 }
 
 int main(int argc, char const *argv[]) {
-    static int N, token, event, i, r;
+    static int N, token, event, i, r, pos;
     static char fa_name[5]; //facility representa o objeto simulado
 
     char evento[7];
@@ -183,13 +190,15 @@ int main(int argc, char const *argv[]) {
             // para enviar o prepare request para uma maioria de acceptors
             // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
 
-            printf("O processo %d esta fazendo o propose!\n\n", token);
+            printf("[EVENTO] O processo %d esta fazendo o propose!\n\n", token);
             respostas.push_back(std:: make_pair(0,0));
+            pos = respostas.size()-1;
+            schedule(etapa1, 5.0, token);
+            break;
 
+            case etapa1:
             //apaga todas as respostas anteriores, para caso receba uma nova proposta
             quemrespondeu[token].erase(quemrespondeu[token].begin(), quemrespondeu[token].end());
-
-            int pos = respostas.size()-1;
             //envia para os processos acceptors o numero da proposta (first no pair)
             for(int i = 0; i < N; i ++){
                 if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
@@ -198,9 +207,13 @@ int main(int argc, char const *argv[]) {
                     send_preparerequest(token, i, propostas[token + N * numeros[token]].first);
                 }
             }
+            schedule(etapa2, 5.0, token);
+            break;
+
+            case etapa2:
             for(int i = 0; i < N; i ++){
                 if(nodo[i].papel[0] == 2 && status(nodo[i].id) == 0){
-                    if(propostas[token + N * numeros[token]].first > maiornumerorecebido[i].first){
+                    if(propostas[token + N * numeros[token]].first >= maiornumerorecebido[i].first){
                         maiornumerorecebido[i].first = propostas[token + N * numeros[token]].first;
                         // printf(">>>>>>>>>>>>>>>>>>> %d e %d\n", propostas[token + N * numeros[token]].first, propostas[token + N * numeros[token]].second);
                         // responsesrecebidas[sender]++;
@@ -213,6 +226,11 @@ int main(int argc, char const *argv[]) {
                     }
                 }
             }
+
+            schedule(etapa3, 5.0, token);
+            break;
+
+            case etapa3:
             // verifica se recebeu a maioria das respostas para aquela proposta
             // no caso, a proposta 1, porque esse trabalho esta ficando simples demais
             if(respostas[pos].second >= (respostas[pos].first / 2)){
@@ -225,6 +243,10 @@ int main(int argc, char const *argv[]) {
                 }
             }
 
+            schedule(etapa4, 5.0, token);
+            break;
+
+            case etapa4:
             if(respostas[pos].second >= (respostas[pos].first / 2)){
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
                     if(status(nodo[quemrespondeu[token][i]].id) == 0 && nodo[quemrespondeu[token][i]].reg == 0){
@@ -242,7 +264,7 @@ int main(int argc, char const *argv[]) {
                 }
             }
 
-            //armazena quantas vezes esse processe ja fez propose
+            //armazena quantas vezes esse processo ja fez propose
             //para calcular qual o numero do propose (nunca é o mesmo)
             numeros[token]++;
 
