@@ -191,7 +191,7 @@ int main(int argc, char const *argv[]) {
             // para enviar o prepare request para uma maioria de acceptors
             // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
 
-            printf("[EVENTO] O processo %d esta fazendo o propose!\n\n", token);
+            printf("[EVENTO] O processo %d esta fazendo o propose! (tempo %5.1f)\n\n", token, time());
             respostas[token].push_back(std:: make_pair(0,0));
             pos = respostas[token].size()-1;
             schedule(etapa1, 5.0, token);
