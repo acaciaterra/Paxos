@@ -43,6 +43,7 @@ std:: vector<std:: pair<int, int>> maiornumerorecebido;
 std:: vector< std:: vector <std:: pair<int, int>>> respostas;
 std:: vector< std::vector <int>> quemrespondeu;
 std:: vector<int> numeros;
+std:: vector<int> passoupela3;
 int enviados = 0;
 int npropostaatual = 0;
 
@@ -112,6 +113,7 @@ int main(int argc, char const *argv[]) {
 
     nodo.resize(N);
     maiornumerorecebido.resize(N);
+    passoupela3.resize(50);
     // responsesrecebidas.resize(N);
     //aqui foram inseridas 50 propostas de valores aleatorios
     //os numeros de propostas sao definidos de acordo com o processo
@@ -121,6 +123,8 @@ int main(int argc, char const *argv[]) {
     quemrespondeu.resize(N);
     numeros.resize(N);
     respostas.resize(N);
+
+    std::fill(numeros.begin(), numeros.end(), -1);
 
     // printf(">%d >%d >%d\n", maiornumerorecebido[0], maiornumerorecebido[1], maiornumerorecebido[2]);
     // printf(">>> %d\n", propostas[0].first);
@@ -191,6 +195,10 @@ int main(int argc, char const *argv[]) {
             // para enviar o prepare request para uma maioria de acceptors
             // precisa tambem selecionar uma proposta N, para isso sera mantido um vetor de propostas
 
+            //armazena quantas vezes esse processo ja fez propose
+            //para calcular qual o numero do propose (nunca é o mesmo)
+            numeros[token]++;
+
             printf("[EVENTO] O processo %d esta fazendo o propose! (tempo %5.1f)\n\n", token, time());
             respostas[token].push_back(std:: make_pair(0,0));
             pos = respostas[token].size()-1;
@@ -236,6 +244,7 @@ int main(int argc, char const *argv[]) {
             // no caso, a proposta 1, porque esse trabalho esta ficando simples demais
             // printf("maiornumerorecebido: %d >>>>>> token + N * numeros[token]: %d\n", maiornumerorecebido[token].first, (token + N * numeros[token]));
             if(respostas[token][pos].second >= (respostas[token][pos].first / 2) && maiornumerorecebido[token].first == token + N * numeros[token]){
+                passoupela3[token + N * numeros[token]] = 1;
                 printf(">>> Recebeu resposta da maioria!!\n");
                 // agora o proposer envia o accept request para os processos dos quais recebeu a resposta
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
@@ -251,7 +260,7 @@ int main(int argc, char const *argv[]) {
             break;
 
             case etapa4:
-            if(respostas[token][pos].second >= (respostas[token][pos].first / 2) && maiornumerorecebido[token].first == token + N * numeros[token]){
+            if(respostas[token][pos].second >= (respostas[token][pos].first / 2) && maiornumerorecebido[token].first == token + N * numeros[token] && passoupela3[token + N * numeros[token]] == 1){
                 for(int i = 0; i < quemrespondeu[token].size(); i++){
                     if(status(nodo[quemrespondeu[token][i]].id) == 0 && nodo[quemrespondeu[token][i]].reg == 0){
                         nodo[quemrespondeu[token][i]].reg = propostas[token + N * numeros[token]].second;
@@ -268,14 +277,6 @@ int main(int argc, char const *argv[]) {
                 }
             }
 
-            //armazena quantas vezes esse processo ja fez propose
-            //para calcular qual o numero do propose (nunca é o mesmo)
-            numeros[token]++;
-
-            // proximos passos:
-            // cobrir outros casos. exemplo: acceptors ja terem aceitado a proposta
-            // verificar se esta sendo sempre verificado o estado de um processo
-            // dar um jeito de ser automatico a selecao das propostas
             break;
 	 	}
 	}
