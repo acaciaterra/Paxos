@@ -1,0 +1,1545 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+Numero de nodos no sistema: 128
+[EVENTO] O processo 63 esta fazendo o propose! (tempo  50.0)
+
+O processo 0 recebeu a proposta de numero 63 do processo 63
+O processo 1 recebeu a proposta de numero 63 do processo 63
+O processo 2 recebeu a proposta de numero 63 do processo 63
+O processo 3 recebeu a proposta de numero 63 do processo 63
+O processo 4 recebeu a proposta de numero 63 do processo 63
+O processo 5 recebeu a proposta de numero 63 do processo 63
+O processo 6 recebeu a proposta de numero 63 do processo 63
+O processo 7 recebeu a proposta de numero 63 do processo 63
+O processo 8 recebeu a proposta de numero 63 do processo 63
+O processo 9 recebeu a proposta de numero 63 do processo 63
+O processo 10 recebeu a proposta de numero 63 do processo 63
+O processo 11 recebeu a proposta de numero 63 do processo 63
+O processo 12 recebeu a proposta de numero 63 do processo 63
+O processo 13 recebeu a proposta de numero 63 do processo 63
+O processo 14 recebeu a proposta de numero 63 do processo 63
+O processo 15 recebeu a proposta de numero 63 do processo 63
+O processo 16 recebeu a proposta de numero 63 do processo 63
+O processo 17 recebeu a proposta de numero 63 do processo 63
+O processo 18 recebeu a proposta de numero 63 do processo 63
+O processo 19 recebeu a proposta de numero 63 do processo 63
+O processo 20 recebeu a proposta de numero 63 do processo 63
+O processo 21 recebeu a proposta de numero 63 do processo 63
+O processo 22 recebeu a proposta de numero 63 do processo 63
+O processo 23 recebeu a proposta de numero 63 do processo 63
+O processo 24 recebeu a proposta de numero 63 do processo 63
+O processo 25 recebeu a proposta de numero 63 do processo 63
+O processo 26 recebeu a proposta de numero 63 do processo 63
+O processo 27 recebeu a proposta de numero 63 do processo 63
+O processo 28 recebeu a proposta de numero 63 do processo 63
+O processo 29 recebeu a proposta de numero 63 do processo 63
+O processo 30 recebeu a proposta de numero 63 do processo 63
+O processo 31 recebeu a proposta de numero 63 do processo 63
+O processo 32 recebeu a proposta de numero 63 do processo 63
+O processo 33 recebeu a proposta de numero 63 do processo 63
+O processo 34 recebeu a proposta de numero 63 do processo 63
+O processo 35 recebeu a proposta de numero 63 do processo 63
+O processo 36 recebeu a proposta de numero 63 do processo 63
+O processo 37 recebeu a proposta de numero 63 do processo 63
+O processo 38 recebeu a proposta de numero 63 do processo 63
+O processo 39 recebeu a proposta de numero 63 do processo 63
+O processo 40 recebeu a proposta de numero 63 do processo 63
+O processo 41 recebeu a proposta de numero 63 do processo 63
+O processo 42 recebeu a proposta de numero 63 do processo 63
+O processo 43 recebeu a proposta de numero 63 do processo 63
+O processo 44 recebeu a proposta de numero 63 do processo 63
+O processo 45 recebeu a proposta de numero 63 do processo 63
+O processo 46 recebeu a proposta de numero 63 do processo 63
+O processo 47 recebeu a proposta de numero 63 do processo 63
+O processo 48 recebeu a proposta de numero 63 do processo 63
+O processo 49 recebeu a proposta de numero 63 do processo 63
+O processo 50 recebeu a proposta de numero 63 do processo 63
+O processo 51 recebeu a proposta de numero 63 do processo 63
+O processo 52 recebeu a proposta de numero 63 do processo 63
+O processo 53 recebeu a proposta de numero 63 do processo 63
+O processo 54 recebeu a proposta de numero 63 do processo 63
+O processo 55 recebeu a proposta de numero 63 do processo 63
+O processo 56 recebeu a proposta de numero 63 do processo 63
+O processo 57 recebeu a proposta de numero 63 do processo 63
+O processo 58 recebeu a proposta de numero 63 do processo 63
+O processo 59 recebeu a proposta de numero 63 do processo 63
+O processo 60 recebeu a proposta de numero 63 do processo 63
+O processo 61 recebeu a proposta de numero 63 do processo 63
+O processo 62 recebeu a proposta de numero 63 do processo 63
+O processo 64 recebeu a proposta de numero 63 do processo 63
+O processo 65 recebeu a proposta de numero 63 do processo 63
+O processo 66 recebeu a proposta de numero 63 do processo 63
+O processo 67 recebeu a proposta de numero 63 do processo 63
+O processo 68 recebeu a proposta de numero 63 do processo 63
+O processo 69 recebeu a proposta de numero 63 do processo 63
+O processo 70 recebeu a proposta de numero 63 do processo 63
+O processo 71 recebeu a proposta de numero 63 do processo 63
+O processo 72 recebeu a proposta de numero 63 do processo 63
+O processo 73 recebeu a proposta de numero 63 do processo 63
+O processo 74 recebeu a proposta de numero 63 do processo 63
+O processo 75 recebeu a proposta de numero 63 do processo 63
+O processo 76 recebeu a proposta de numero 63 do processo 63
+O processo 77 recebeu a proposta de numero 63 do processo 63
+O processo 78 recebeu a proposta de numero 63 do processo 63
+O processo 79 recebeu a proposta de numero 63 do processo 63
+O processo 80 recebeu a proposta de numero 63 do processo 63
+O processo 81 recebeu a proposta de numero 63 do processo 63
+O processo 82 recebeu a proposta de numero 63 do processo 63
+O processo 83 recebeu a proposta de numero 63 do processo 63
+O processo 84 recebeu a proposta de numero 63 do processo 63
+O processo 85 recebeu a proposta de numero 63 do processo 63
+O processo 86 recebeu a proposta de numero 63 do processo 63
+O processo 87 recebeu a proposta de numero 63 do processo 63
+O processo 88 recebeu a proposta de numero 63 do processo 63
+O processo 89 recebeu a proposta de numero 63 do processo 63
+O processo 90 recebeu a proposta de numero 63 do processo 63
+O processo 91 recebeu a proposta de numero 63 do processo 63
+O processo 92 recebeu a proposta de numero 63 do processo 63
+O processo 93 recebeu a proposta de numero 63 do processo 63
+O processo 94 recebeu a proposta de numero 63 do processo 63
+O processo 95 recebeu a proposta de numero 63 do processo 63
+O processo 96 recebeu a proposta de numero 63 do processo 63
+O processo 97 recebeu a proposta de numero 63 do processo 63
+O processo 98 recebeu a proposta de numero 63 do processo 63
+O processo 99 recebeu a proposta de numero 63 do processo 63
+O processo 100 recebeu a proposta de numero 63 do processo 63
+O processo 101 recebeu a proposta de numero 63 do processo 63
+O processo 102 recebeu a proposta de numero 63 do processo 63
+O processo 103 recebeu a proposta de numero 63 do processo 63
+O processo 104 recebeu a proposta de numero 63 do processo 63
+O processo 105 recebeu a proposta de numero 63 do processo 63
+O processo 106 recebeu a proposta de numero 63 do processo 63
+O processo 107 recebeu a proposta de numero 63 do processo 63
+O processo 108 recebeu a proposta de numero 63 do processo 63
+O processo 109 recebeu a proposta de numero 63 do processo 63
+O processo 110 recebeu a proposta de numero 63 do processo 63
+O processo 111 recebeu a proposta de numero 63 do processo 63
+O processo 112 recebeu a proposta de numero 63 do processo 63
+O processo 113 recebeu a proposta de numero 63 do processo 63
+O processo 114 recebeu a proposta de numero 63 do processo 63
+O processo 115 recebeu a proposta de numero 63 do processo 63
+O processo 116 recebeu a proposta de numero 63 do processo 63
+O processo 117 recebeu a proposta de numero 63 do processo 63
+O processo 118 recebeu a proposta de numero 63 do processo 63
+O processo 119 recebeu a proposta de numero 63 do processo 63
+O processo 120 recebeu a proposta de numero 63 do processo 63
+O processo 121 recebeu a proposta de numero 63 do processo 63
+O processo 122 recebeu a proposta de numero 63 do processo 63
+O processo 123 recebeu a proposta de numero 63 do processo 63
+O processo 124 recebeu a proposta de numero 63 do processo 63
+O processo 125 recebeu a proposta de numero 63 do processo 63
+O processo 126 recebeu a proposta de numero 63 do processo 63
+O processo 127 recebeu a proposta de numero 63 do processo 63
+O processo 63 recebeu do processo 0 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 63 recebeu do processo 1 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 63 recebeu do processo 2 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 3
+----------------------------------------
+
+O processo 63 recebeu do processo 3 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 4
+----------------------------------------
+
+O processo 63 recebeu do processo 4 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 5
+----------------------------------------
+
+O processo 63 recebeu do processo 5 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 6
+----------------------------------------
+
+O processo 63 recebeu do processo 6 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 7
+----------------------------------------
+
+O processo 63 recebeu do processo 7 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 8
+----------------------------------------
+
+O processo 63 recebeu do processo 8 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 9
+----------------------------------------
+
+O processo 63 recebeu do processo 9 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 10
+----------------------------------------
+
+O processo 63 recebeu do processo 10 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 11
+----------------------------------------
+
+O processo 63 recebeu do processo 11 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 12
+----------------------------------------
+
+O processo 63 recebeu do processo 12 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 13
+----------------------------------------
+
+O processo 63 recebeu do processo 13 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 14
+----------------------------------------
+
+O processo 63 recebeu do processo 14 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 15
+----------------------------------------
+
+O processo 63 recebeu do processo 15 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 16
+----------------------------------------
+
+O processo 63 recebeu do processo 16 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 17
+----------------------------------------
+
+O processo 63 recebeu do processo 17 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 18
+----------------------------------------
+
+O processo 63 recebeu do processo 18 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 19
+----------------------------------------
+
+O processo 63 recebeu do processo 19 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 20
+----------------------------------------
+
+O processo 63 recebeu do processo 20 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 21
+----------------------------------------
+
+O processo 63 recebeu do processo 21 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 22
+----------------------------------------
+
+O processo 63 recebeu do processo 22 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 23
+----------------------------------------
+
+O processo 63 recebeu do processo 23 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 24
+----------------------------------------
+
+O processo 63 recebeu do processo 24 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 25
+----------------------------------------
+
+O processo 63 recebeu do processo 25 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 26
+----------------------------------------
+
+O processo 63 recebeu do processo 26 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 27
+----------------------------------------
+
+O processo 63 recebeu do processo 27 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 28
+----------------------------------------
+
+O processo 63 recebeu do processo 28 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 29
+----------------------------------------
+
+O processo 63 recebeu do processo 29 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 30
+----------------------------------------
+
+O processo 63 recebeu do processo 30 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 31
+----------------------------------------
+
+O processo 63 recebeu do processo 31 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 32
+----------------------------------------
+
+O processo 63 recebeu do processo 32 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 33
+----------------------------------------
+
+O processo 63 recebeu do processo 33 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 34
+----------------------------------------
+
+O processo 63 recebeu do processo 34 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 35
+----------------------------------------
+
+O processo 63 recebeu do processo 35 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 36
+----------------------------------------
+
+O processo 63 recebeu do processo 36 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 37
+----------------------------------------
+
+O processo 63 recebeu do processo 37 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 38
+----------------------------------------
+
+O processo 63 recebeu do processo 38 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 39
+----------------------------------------
+
+O processo 63 recebeu do processo 39 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 40
+----------------------------------------
+
+O processo 63 recebeu do processo 40 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 41
+----------------------------------------
+
+O processo 63 recebeu do processo 41 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 42
+----------------------------------------
+
+O processo 63 recebeu do processo 42 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 43
+----------------------------------------
+
+O processo 63 recebeu do processo 43 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 44
+----------------------------------------
+
+O processo 63 recebeu do processo 44 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 45
+----------------------------------------
+
+O processo 63 recebeu do processo 45 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 46
+----------------------------------------
+
+O processo 63 recebeu do processo 46 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 47
+----------------------------------------
+
+O processo 63 recebeu do processo 47 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 48
+----------------------------------------
+
+O processo 63 recebeu do processo 48 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 49
+----------------------------------------
+
+O processo 63 recebeu do processo 49 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 50
+----------------------------------------
+
+O processo 63 recebeu do processo 50 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 51
+----------------------------------------
+
+O processo 63 recebeu do processo 51 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 52
+----------------------------------------
+
+O processo 63 recebeu do processo 52 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 53
+----------------------------------------
+
+O processo 63 recebeu do processo 53 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 54
+----------------------------------------
+
+O processo 63 recebeu do processo 54 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 55
+----------------------------------------
+
+O processo 63 recebeu do processo 55 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 56
+----------------------------------------
+
+O processo 63 recebeu do processo 56 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 57
+----------------------------------------
+
+O processo 63 recebeu do processo 57 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 58
+----------------------------------------
+
+O processo 63 recebeu do processo 58 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 59
+----------------------------------------
+
+O processo 63 recebeu do processo 59 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 60
+----------------------------------------
+
+O processo 63 recebeu do processo 60 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 61
+----------------------------------------
+
+O processo 63 recebeu do processo 61 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 62
+----------------------------------------
+
+O processo 63 recebeu do processo 62 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 63
+----------------------------------------
+
+O processo 63 acrescenta seu proprio prepare response no vetor
+O processo 63 recebeu do processo 64 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 65
+----------------------------------------
+
+O processo 63 recebeu do processo 65 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 66
+----------------------------------------
+
+O processo 63 recebeu do processo 66 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 67
+----------------------------------------
+
+O processo 63 recebeu do processo 67 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 68
+----------------------------------------
+
+O processo 63 recebeu do processo 68 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 69
+----------------------------------------
+
+O processo 63 recebeu do processo 69 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 70
+----------------------------------------
+
+O processo 63 recebeu do processo 70 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 71
+----------------------------------------
+
+O processo 63 recebeu do processo 71 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 72
+----------------------------------------
+
+O processo 63 recebeu do processo 72 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 73
+----------------------------------------
+
+O processo 63 recebeu do processo 73 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 74
+----------------------------------------
+
+O processo 63 recebeu do processo 74 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 75
+----------------------------------------
+
+O processo 63 recebeu do processo 75 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 76
+----------------------------------------
+
+O processo 63 recebeu do processo 76 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 77
+----------------------------------------
+
+O processo 63 recebeu do processo 77 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 78
+----------------------------------------
+
+O processo 63 recebeu do processo 78 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 79
+----------------------------------------
+
+O processo 63 recebeu do processo 79 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 80
+----------------------------------------
+
+O processo 63 recebeu do processo 80 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 81
+----------------------------------------
+
+O processo 63 recebeu do processo 81 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 82
+----------------------------------------
+
+O processo 63 recebeu do processo 82 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 83
+----------------------------------------
+
+O processo 63 recebeu do processo 83 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 84
+----------------------------------------
+
+O processo 63 recebeu do processo 84 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 85
+----------------------------------------
+
+O processo 63 recebeu do processo 85 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 86
+----------------------------------------
+
+O processo 63 recebeu do processo 86 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 87
+----------------------------------------
+
+O processo 63 recebeu do processo 87 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 88
+----------------------------------------
+
+O processo 63 recebeu do processo 88 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 89
+----------------------------------------
+
+O processo 63 recebeu do processo 89 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 90
+----------------------------------------
+
+O processo 63 recebeu do processo 90 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 91
+----------------------------------------
+
+O processo 63 recebeu do processo 91 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 92
+----------------------------------------
+
+O processo 63 recebeu do processo 92 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 93
+----------------------------------------
+
+O processo 63 recebeu do processo 93 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 94
+----------------------------------------
+
+O processo 63 recebeu do processo 94 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 95
+----------------------------------------
+
+O processo 63 recebeu do processo 95 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 96
+----------------------------------------
+
+O processo 63 recebeu do processo 96 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 97
+----------------------------------------
+
+O processo 63 recebeu do processo 97 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 98
+----------------------------------------
+
+O processo 63 recebeu do processo 98 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 99
+----------------------------------------
+
+O processo 63 recebeu do processo 99 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 100
+----------------------------------------
+
+O processo 63 recebeu do processo 100 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 101
+----------------------------------------
+
+O processo 63 recebeu do processo 101 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 102
+----------------------------------------
+
+O processo 63 recebeu do processo 102 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 103
+----------------------------------------
+
+O processo 63 recebeu do processo 103 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 104
+----------------------------------------
+
+O processo 63 recebeu do processo 104 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 105
+----------------------------------------
+
+O processo 63 recebeu do processo 105 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 106
+----------------------------------------
+
+O processo 63 recebeu do processo 106 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 107
+----------------------------------------
+
+O processo 63 recebeu do processo 107 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 108
+----------------------------------------
+
+O processo 63 recebeu do processo 108 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 109
+----------------------------------------
+
+O processo 63 recebeu do processo 109 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 110
+----------------------------------------
+
+O processo 63 recebeu do processo 110 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 111
+----------------------------------------
+
+O processo 63 recebeu do processo 111 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 112
+----------------------------------------
+
+O processo 63 recebeu do processo 112 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 113
+----------------------------------------
+
+O processo 63 recebeu do processo 113 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 114
+----------------------------------------
+
+O processo 63 recebeu do processo 114 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 115
+----------------------------------------
+
+O processo 63 recebeu do processo 115 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 116
+----------------------------------------
+
+O processo 63 recebeu do processo 116 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 117
+----------------------------------------
+
+O processo 63 recebeu do processo 117 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 118
+----------------------------------------
+
+O processo 63 recebeu do processo 118 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 119
+----------------------------------------
+
+O processo 63 recebeu do processo 119 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 120
+----------------------------------------
+
+O processo 63 recebeu do processo 120 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 121
+----------------------------------------
+
+O processo 63 recebeu do processo 121 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 122
+----------------------------------------
+
+O processo 63 recebeu do processo 122 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 123
+----------------------------------------
+
+O processo 63 recebeu do processo 123 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 124
+----------------------------------------
+
+O processo 63 recebeu do processo 124 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 125
+----------------------------------------
+
+O processo 63 recebeu do processo 125 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 126
+----------------------------------------
+
+O processo 63 recebeu do processo 126 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 127
+----------------------------------------
+
+O processo 63 recebeu do processo 127 o prepare response (numero 63, valor 0)
+
+----------------------------------------
+Proposta numero: 63
+prepare request enviados: 127
+prepare response recebidos: 128
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 63 enviou um accept request para o processo 0 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 1 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 2 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 3 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 4 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 5 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 6 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 7 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 8 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 9 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 10 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 11 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 12 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 13 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 14 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 15 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 16 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 17 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 18 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 19 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 20 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 21 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 22 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 23 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 24 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 25 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 26 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 27 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 28 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 29 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 30 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 31 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 32 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 33 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 34 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 35 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 36 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 37 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 38 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 39 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 40 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 41 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 42 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 43 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 44 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 45 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 46 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 47 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 48 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 49 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 50 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 51 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 52 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 53 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 54 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 55 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 56 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 57 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 58 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 59 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 60 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 61 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 62 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 64 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 65 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 66 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 67 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 68 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 69 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 70 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 71 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 72 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 73 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 74 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 75 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 76 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 77 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 78 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 79 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 80 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 81 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 82 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 83 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 84 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 85 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 86 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 87 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 88 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 89 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 90 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 91 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 92 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 93 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 94 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 95 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 96 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 97 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 98 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 99 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 100 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 101 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 102 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 103 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 104 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 105 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 106 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 107 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 108 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 109 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 110 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 111 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 112 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 113 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 114 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 115 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 116 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 117 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 118 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 119 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 120 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 121 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 122 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 123 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 124 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 125 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 126 (numero 63,valor 127)
+O processo 63 enviou um accept request para o processo 127 (numero 63,valor 127)
+processo 0 decidiu pelo valor 127
+O processo 0 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 1 decidiu pelo valor 127
+O processo 1 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 2 decidiu pelo valor 127
+O processo 2 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 3 decidiu pelo valor 127
+O processo 3 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 4 decidiu pelo valor 127
+O processo 4 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 5 decidiu pelo valor 127
+O processo 5 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 6 decidiu pelo valor 127
+O processo 6 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 7 decidiu pelo valor 127
+O processo 7 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 8 decidiu pelo valor 127
+O processo 8 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 9 decidiu pelo valor 127
+O processo 9 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 10 decidiu pelo valor 127
+O processo 10 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 11 decidiu pelo valor 127
+O processo 11 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 12 decidiu pelo valor 127
+O processo 12 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 13 decidiu pelo valor 127
+O processo 13 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 14 decidiu pelo valor 127
+O processo 14 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 15 decidiu pelo valor 127
+O processo 15 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 16 decidiu pelo valor 127
+O processo 16 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 17 decidiu pelo valor 127
+O processo 17 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 18 decidiu pelo valor 127
+O processo 18 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 19 decidiu pelo valor 127
+O processo 19 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 20 decidiu pelo valor 127
+O processo 20 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 21 decidiu pelo valor 127
+O processo 21 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 22 decidiu pelo valor 127
+O processo 22 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 23 decidiu pelo valor 127
+O processo 23 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 24 decidiu pelo valor 127
+O processo 24 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 25 decidiu pelo valor 127
+O processo 25 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 26 decidiu pelo valor 127
+O processo 26 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 27 decidiu pelo valor 127
+O processo 27 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 28 decidiu pelo valor 127
+O processo 28 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 29 decidiu pelo valor 127
+O processo 29 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 30 decidiu pelo valor 127
+O processo 30 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 31 decidiu pelo valor 127
+O processo 31 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 32 decidiu pelo valor 127
+O processo 32 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 33 decidiu pelo valor 127
+O processo 33 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 34 decidiu pelo valor 127
+O processo 34 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 35 decidiu pelo valor 127
+O processo 35 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 36 decidiu pelo valor 127
+O processo 36 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 37 decidiu pelo valor 127
+O processo 37 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 38 decidiu pelo valor 127
+O processo 38 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 39 decidiu pelo valor 127
+O processo 39 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 40 decidiu pelo valor 127
+O processo 40 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 41 decidiu pelo valor 127
+O processo 41 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 42 decidiu pelo valor 127
+O processo 42 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 43 decidiu pelo valor 127
+O processo 43 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 44 decidiu pelo valor 127
+O processo 44 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 45 decidiu pelo valor 127
+O processo 45 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 46 decidiu pelo valor 127
+O processo 46 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 47 decidiu pelo valor 127
+O processo 47 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 48 decidiu pelo valor 127
+O processo 48 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 49 decidiu pelo valor 127
+O processo 49 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 50 decidiu pelo valor 127
+O processo 50 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 51 decidiu pelo valor 127
+O processo 51 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 52 decidiu pelo valor 127
+O processo 52 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 53 decidiu pelo valor 127
+O processo 53 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 54 decidiu pelo valor 127
+O processo 54 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 55 decidiu pelo valor 127
+O processo 55 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 56 decidiu pelo valor 127
+O processo 56 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 57 decidiu pelo valor 127
+O processo 57 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 58 decidiu pelo valor 127
+O processo 58 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 59 decidiu pelo valor 127
+O processo 59 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 60 decidiu pelo valor 127
+O processo 60 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 61 decidiu pelo valor 127
+O processo 61 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 62 decidiu pelo valor 127
+O processo 62 atualizou seu proprio registrador com o valor 127 e envia o accept response
+O processo proposer atualiza seu registrador com o valor 127
+processo 64 decidiu pelo valor 127
+O processo 64 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 65 decidiu pelo valor 127
+O processo 65 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 66 decidiu pelo valor 127
+O processo 66 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 67 decidiu pelo valor 127
+O processo 67 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 68 decidiu pelo valor 127
+O processo 68 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 69 decidiu pelo valor 127
+O processo 69 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 70 decidiu pelo valor 127
+O processo 70 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 71 decidiu pelo valor 127
+O processo 71 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 72 decidiu pelo valor 127
+O processo 72 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 73 decidiu pelo valor 127
+O processo 73 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 74 decidiu pelo valor 127
+O processo 74 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 75 decidiu pelo valor 127
+O processo 75 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 76 decidiu pelo valor 127
+O processo 76 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 77 decidiu pelo valor 127
+O processo 77 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 78 decidiu pelo valor 127
+O processo 78 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 79 decidiu pelo valor 127
+O processo 79 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 80 decidiu pelo valor 127
+O processo 80 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 81 decidiu pelo valor 127
+O processo 81 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 82 decidiu pelo valor 127
+O processo 82 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 83 decidiu pelo valor 127
+O processo 83 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 84 decidiu pelo valor 127
+O processo 84 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 85 decidiu pelo valor 127
+O processo 85 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 86 decidiu pelo valor 127
+O processo 86 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 87 decidiu pelo valor 127
+O processo 87 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 88 decidiu pelo valor 127
+O processo 88 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 89 decidiu pelo valor 127
+O processo 89 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 90 decidiu pelo valor 127
+O processo 90 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 91 decidiu pelo valor 127
+O processo 91 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 92 decidiu pelo valor 127
+O processo 92 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 93 decidiu pelo valor 127
+O processo 93 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 94 decidiu pelo valor 127
+O processo 94 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 95 decidiu pelo valor 127
+O processo 95 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 96 decidiu pelo valor 127
+O processo 96 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 97 decidiu pelo valor 127
+O processo 97 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 98 decidiu pelo valor 127
+O processo 98 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 99 decidiu pelo valor 127
+O processo 99 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 100 decidiu pelo valor 127
+O processo 100 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 101 decidiu pelo valor 127
+O processo 101 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 102 decidiu pelo valor 127
+O processo 102 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 103 decidiu pelo valor 127
+O processo 103 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 104 decidiu pelo valor 127
+O processo 104 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 105 decidiu pelo valor 127
+O processo 105 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 106 decidiu pelo valor 127
+O processo 106 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 107 decidiu pelo valor 127
+O processo 107 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 108 decidiu pelo valor 127
+O processo 108 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 109 decidiu pelo valor 127
+O processo 109 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 110 decidiu pelo valor 127
+O processo 110 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 111 decidiu pelo valor 127
+O processo 111 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 112 decidiu pelo valor 127
+O processo 112 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 113 decidiu pelo valor 127
+O processo 113 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 114 decidiu pelo valor 127
+O processo 114 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 115 decidiu pelo valor 127
+O processo 115 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 116 decidiu pelo valor 127
+O processo 116 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 117 decidiu pelo valor 127
+O processo 117 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 118 decidiu pelo valor 127
+O processo 118 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 119 decidiu pelo valor 127
+O processo 119 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 120 decidiu pelo valor 127
+O processo 120 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 121 decidiu pelo valor 127
+O processo 121 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 122 decidiu pelo valor 127
+O processo 122 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 123 decidiu pelo valor 127
+O processo 123 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 124 decidiu pelo valor 127
+O processo 124 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 125 decidiu pelo valor 127
+O processo 125 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 126 decidiu pelo valor 127
+O processo 126 atualizou seu proprio registrador com o valor 127 e envia o accept response
+processo 127 decidiu pelo valor 127
+O processo 127 atualizou seu proprio registrador com o valor 127 e envia o accept response
+-----------------------------------------------------------------------
+                    RESULTADOS
+Quantidade de prepare request enviados: 127
+Quantidade de prepare response recebidos: 127
+Quantidade de accept request enviados: 127
+Quantidade de accept response recebidos: 127
+Quantidade total de mensagens trocadas: 508
+-----------------------------------------------------------------------
+

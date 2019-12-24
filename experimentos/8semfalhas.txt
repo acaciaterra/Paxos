@@ -1,0 +1,105 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+Numero de nodos no sistema: 8
+[EVENTO] O processo 3 esta fazendo o propose! (tempo  50.0)
+
+O processo 0 recebeu a proposta de numero 3 do processo 3
+O processo 1 recebeu a proposta de numero 3 do processo 3
+O processo 2 recebeu a proposta de numero 3 do processo 3
+O processo 4 recebeu a proposta de numero 3 do processo 3
+O processo 5 recebeu a proposta de numero 3 do processo 3
+O processo 6 recebeu a proposta de numero 3 do processo 3
+O processo 7 recebeu a proposta de numero 3 do processo 3
+O processo 3 recebeu do processo 0 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 3 recebeu do processo 1 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 3 recebeu do processo 2 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 3
+----------------------------------------
+
+O processo 3 acrescenta seu proprio prepare response no vetor
+O processo 3 recebeu do processo 4 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 5
+----------------------------------------
+
+O processo 3 recebeu do processo 5 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 6
+----------------------------------------
+
+O processo 3 recebeu do processo 6 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 7
+----------------------------------------
+
+O processo 3 recebeu do processo 7 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 8
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 3 enviou um accept request para o processo 0 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 1 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 2 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 4 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 5 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 6 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 7 (numero 3,valor 115)
+processo 0 decidiu pelo valor 115
+O processo 0 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 1 decidiu pelo valor 115
+O processo 1 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 2 decidiu pelo valor 115
+O processo 2 atualizou seu proprio registrador com o valor 115 e envia o accept response
+O processo proposer atualiza seu registrador com o valor 115
+processo 4 decidiu pelo valor 115
+O processo 4 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 5 decidiu pelo valor 115
+O processo 5 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 6 decidiu pelo valor 115
+O processo 6 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 7 decidiu pelo valor 115
+O processo 7 atualizou seu proprio registrador com o valor 115 e envia o accept response
+-----------------------------------------------------------------------
+                    RESULTADOS
+Quantidade de prepare request enviados: 7
+Quantidade de prepare response recebidos: 7
+Quantidade de accept request enviados: 7
+Quantidade de accept response recebidos: 7
+Quantidade total de mensagens trocadas: 28
+-----------------------------------------------------------------------
+

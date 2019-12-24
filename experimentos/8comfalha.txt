@@ -1,0 +1,75 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+Numero de nodos no sistema: 8
+EVENTO: O nodo 7 falhou no tempo  40.0
+EVENTO: O nodo 5 falhou no tempo  40.0
+EVENTO: O nodo 1 falhou no tempo  40.0
+[EVENTO] O processo 3 esta fazendo o propose! (tempo  50.0)
+
+O processo 0 recebeu a proposta de numero 3 do processo 3
+O processo 1 recebeu a proposta de numero 3 do processo 3
+O processo 2 recebeu a proposta de numero 3 do processo 3
+O processo 4 recebeu a proposta de numero 3 do processo 3
+O processo 5 recebeu a proposta de numero 3 do processo 3
+O processo 6 recebeu a proposta de numero 3 do processo 3
+O processo 7 recebeu a proposta de numero 3 do processo 3
+O processo 3 recebeu do processo 0 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 3 recebeu do processo 2 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 3 acrescenta seu proprio prepare response no vetor
+O processo 3 recebeu do processo 4 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 4
+----------------------------------------
+
+O processo 3 recebeu do processo 6 o prepare response (numero 3, valor 0)
+
+----------------------------------------
+Proposta numero: 3
+prepare request enviados: 7
+prepare response recebidos: 5
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 3 enviou um accept request para o processo 0 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 2 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 4 (numero 3,valor 115)
+O processo 3 enviou um accept request para o processo 6 (numero 3,valor 115)
+processo 0 decidiu pelo valor 115
+O processo 0 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 2 decidiu pelo valor 115
+O processo 2 atualizou seu proprio registrador com o valor 115 e envia o accept response
+O processo proposer atualiza seu registrador com o valor 115
+processo 4 decidiu pelo valor 115
+O processo 4 atualizou seu proprio registrador com o valor 115 e envia o accept response
+processo 6 decidiu pelo valor 115
+O processo 6 atualizou seu proprio registrador com o valor 115 e envia o accept response
+-----------------------------------------------------------------------
+                    RESULTADOS
+Quantidade de prepare request enviados: 7
+Quantidade de prepare response recebidos: 4
+Quantidade de accept request enviados: 4
+Quantidade de accept response recebidos: 4
+Quantidade total de mensagens trocadas: 19
+-----------------------------------------------------------------------
+

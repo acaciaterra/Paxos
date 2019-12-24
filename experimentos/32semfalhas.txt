@@ -1,0 +1,393 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+Numero de nodos no sistema: 32
+[EVENTO] O processo 15 esta fazendo o propose! (tempo  50.0)
+
+O processo 0 recebeu a proposta de numero 15 do processo 15
+O processo 1 recebeu a proposta de numero 15 do processo 15
+O processo 2 recebeu a proposta de numero 15 do processo 15
+O processo 3 recebeu a proposta de numero 15 do processo 15
+O processo 4 recebeu a proposta de numero 15 do processo 15
+O processo 5 recebeu a proposta de numero 15 do processo 15
+O processo 6 recebeu a proposta de numero 15 do processo 15
+O processo 7 recebeu a proposta de numero 15 do processo 15
+O processo 8 recebeu a proposta de numero 15 do processo 15
+O processo 9 recebeu a proposta de numero 15 do processo 15
+O processo 10 recebeu a proposta de numero 15 do processo 15
+O processo 11 recebeu a proposta de numero 15 do processo 15
+O processo 12 recebeu a proposta de numero 15 do processo 15
+O processo 13 recebeu a proposta de numero 15 do processo 15
+O processo 14 recebeu a proposta de numero 15 do processo 15
+O processo 16 recebeu a proposta de numero 15 do processo 15
+O processo 17 recebeu a proposta de numero 15 do processo 15
+O processo 18 recebeu a proposta de numero 15 do processo 15
+O processo 19 recebeu a proposta de numero 15 do processo 15
+O processo 20 recebeu a proposta de numero 15 do processo 15
+O processo 21 recebeu a proposta de numero 15 do processo 15
+O processo 22 recebeu a proposta de numero 15 do processo 15
+O processo 23 recebeu a proposta de numero 15 do processo 15
+O processo 24 recebeu a proposta de numero 15 do processo 15
+O processo 25 recebeu a proposta de numero 15 do processo 15
+O processo 26 recebeu a proposta de numero 15 do processo 15
+O processo 27 recebeu a proposta de numero 15 do processo 15
+O processo 28 recebeu a proposta de numero 15 do processo 15
+O processo 29 recebeu a proposta de numero 15 do processo 15
+O processo 30 recebeu a proposta de numero 15 do processo 15
+O processo 31 recebeu a proposta de numero 15 do processo 15
+O processo 15 recebeu do processo 0 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 15 recebeu do processo 1 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 15 recebeu do processo 2 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 3
+----------------------------------------
+
+O processo 15 recebeu do processo 3 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 4
+----------------------------------------
+
+O processo 15 recebeu do processo 4 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 5
+----------------------------------------
+
+O processo 15 recebeu do processo 5 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 6
+----------------------------------------
+
+O processo 15 recebeu do processo 6 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 7
+----------------------------------------
+
+O processo 15 recebeu do processo 7 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 8
+----------------------------------------
+
+O processo 15 recebeu do processo 8 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 9
+----------------------------------------
+
+O processo 15 recebeu do processo 9 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 10
+----------------------------------------
+
+O processo 15 recebeu do processo 10 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 11
+----------------------------------------
+
+O processo 15 recebeu do processo 11 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 12
+----------------------------------------
+
+O processo 15 recebeu do processo 12 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 13
+----------------------------------------
+
+O processo 15 recebeu do processo 13 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 14
+----------------------------------------
+
+O processo 15 recebeu do processo 14 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 15
+----------------------------------------
+
+O processo 15 acrescenta seu proprio prepare response no vetor
+O processo 15 recebeu do processo 16 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 17
+----------------------------------------
+
+O processo 15 recebeu do processo 17 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 18
+----------------------------------------
+
+O processo 15 recebeu do processo 18 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 19
+----------------------------------------
+
+O processo 15 recebeu do processo 19 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 20
+----------------------------------------
+
+O processo 15 recebeu do processo 20 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 21
+----------------------------------------
+
+O processo 15 recebeu do processo 21 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 22
+----------------------------------------
+
+O processo 15 recebeu do processo 22 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 23
+----------------------------------------
+
+O processo 15 recebeu do processo 23 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 24
+----------------------------------------
+
+O processo 15 recebeu do processo 24 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 25
+----------------------------------------
+
+O processo 15 recebeu do processo 25 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 26
+----------------------------------------
+
+O processo 15 recebeu do processo 26 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 27
+----------------------------------------
+
+O processo 15 recebeu do processo 27 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 28
+----------------------------------------
+
+O processo 15 recebeu do processo 28 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 29
+----------------------------------------
+
+O processo 15 recebeu do processo 29 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 30
+----------------------------------------
+
+O processo 15 recebeu do processo 30 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 31
+----------------------------------------
+
+O processo 15 recebeu do processo 31 o prepare response (numero 15, valor 0)
+
+----------------------------------------
+Proposta numero: 15
+prepare request enviados: 31
+prepare response recebidos: 32
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 15 enviou um accept request para o processo 0 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 1 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 2 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 3 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 4 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 5 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 6 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 7 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 8 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 9 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 10 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 11 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 12 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 13 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 14 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 16 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 17 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 18 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 19 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 20 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 21 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 22 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 23 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 24 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 25 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 26 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 27 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 28 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 29 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 30 (numero 15,valor 126)
+O processo 15 enviou um accept request para o processo 31 (numero 15,valor 126)
+processo 0 decidiu pelo valor 126
+O processo 0 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 1 decidiu pelo valor 126
+O processo 1 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 2 decidiu pelo valor 126
+O processo 2 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 3 decidiu pelo valor 126
+O processo 3 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 4 decidiu pelo valor 126
+O processo 4 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 5 decidiu pelo valor 126
+O processo 5 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 6 decidiu pelo valor 126
+O processo 6 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 7 decidiu pelo valor 126
+O processo 7 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 8 decidiu pelo valor 126
+O processo 8 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 9 decidiu pelo valor 126
+O processo 9 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 10 decidiu pelo valor 126
+O processo 10 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 11 decidiu pelo valor 126
+O processo 11 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 12 decidiu pelo valor 126
+O processo 12 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 13 decidiu pelo valor 126
+O processo 13 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 14 decidiu pelo valor 126
+O processo 14 atualizou seu proprio registrador com o valor 126 e envia o accept response
+O processo proposer atualiza seu registrador com o valor 126
+processo 16 decidiu pelo valor 126
+O processo 16 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 17 decidiu pelo valor 126
+O processo 17 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 18 decidiu pelo valor 126
+O processo 18 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 19 decidiu pelo valor 126
+O processo 19 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 20 decidiu pelo valor 126
+O processo 20 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 21 decidiu pelo valor 126
+O processo 21 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 22 decidiu pelo valor 126
+O processo 22 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 23 decidiu pelo valor 126
+O processo 23 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 24 decidiu pelo valor 126
+O processo 24 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 25 decidiu pelo valor 126
+O processo 25 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 26 decidiu pelo valor 126
+O processo 26 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 27 decidiu pelo valor 126
+O processo 27 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 28 decidiu pelo valor 126
+O processo 28 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 29 decidiu pelo valor 126
+O processo 29 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 30 decidiu pelo valor 126
+O processo 30 atualizou seu proprio registrador com o valor 126 e envia o accept response
+processo 31 decidiu pelo valor 126
+O processo 31 atualizou seu proprio registrador com o valor 126 e envia o accept response
+-----------------------------------------------------------------------
+                    RESULTADOS
+Quantidade de prepare request enviados: 31
+Quantidade de prepare response recebidos: 31
+Quantidade de accept request enviados: 31
+Quantidade de accept response recebidos: 31
+Quantidade total de mensagens trocadas: 124
+-----------------------------------------------------------------------
+

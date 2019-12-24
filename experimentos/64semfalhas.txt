@@ -1,0 +1,777 @@
+===========================================================
+         Execucao de uma instancia do Paxos
+         Aluna: Acacia dos Campos da Terra
+         Orientador: Elias P. Duarte Jr.
+===========================================================
+
+Numero de nodos no sistema: 64
+[EVENTO] O processo 31 esta fazendo o propose! (tempo  50.0)
+
+O processo 0 recebeu a proposta de numero 31 do processo 31
+O processo 1 recebeu a proposta de numero 31 do processo 31
+O processo 2 recebeu a proposta de numero 31 do processo 31
+O processo 3 recebeu a proposta de numero 31 do processo 31
+O processo 4 recebeu a proposta de numero 31 do processo 31
+O processo 5 recebeu a proposta de numero 31 do processo 31
+O processo 6 recebeu a proposta de numero 31 do processo 31
+O processo 7 recebeu a proposta de numero 31 do processo 31
+O processo 8 recebeu a proposta de numero 31 do processo 31
+O processo 9 recebeu a proposta de numero 31 do processo 31
+O processo 10 recebeu a proposta de numero 31 do processo 31
+O processo 11 recebeu a proposta de numero 31 do processo 31
+O processo 12 recebeu a proposta de numero 31 do processo 31
+O processo 13 recebeu a proposta de numero 31 do processo 31
+O processo 14 recebeu a proposta de numero 31 do processo 31
+O processo 15 recebeu a proposta de numero 31 do processo 31
+O processo 16 recebeu a proposta de numero 31 do processo 31
+O processo 17 recebeu a proposta de numero 31 do processo 31
+O processo 18 recebeu a proposta de numero 31 do processo 31
+O processo 19 recebeu a proposta de numero 31 do processo 31
+O processo 20 recebeu a proposta de numero 31 do processo 31
+O processo 21 recebeu a proposta de numero 31 do processo 31
+O processo 22 recebeu a proposta de numero 31 do processo 31
+O processo 23 recebeu a proposta de numero 31 do processo 31
+O processo 24 recebeu a proposta de numero 31 do processo 31
+O processo 25 recebeu a proposta de numero 31 do processo 31
+O processo 26 recebeu a proposta de numero 31 do processo 31
+O processo 27 recebeu a proposta de numero 31 do processo 31
+O processo 28 recebeu a proposta de numero 31 do processo 31
+O processo 29 recebeu a proposta de numero 31 do processo 31
+O processo 30 recebeu a proposta de numero 31 do processo 31
+O processo 32 recebeu a proposta de numero 31 do processo 31
+O processo 33 recebeu a proposta de numero 31 do processo 31
+O processo 34 recebeu a proposta de numero 31 do processo 31
+O processo 35 recebeu a proposta de numero 31 do processo 31
+O processo 36 recebeu a proposta de numero 31 do processo 31
+O processo 37 recebeu a proposta de numero 31 do processo 31
+O processo 38 recebeu a proposta de numero 31 do processo 31
+O processo 39 recebeu a proposta de numero 31 do processo 31
+O processo 40 recebeu a proposta de numero 31 do processo 31
+O processo 41 recebeu a proposta de numero 31 do processo 31
+O processo 42 recebeu a proposta de numero 31 do processo 31
+O processo 43 recebeu a proposta de numero 31 do processo 31
+O processo 44 recebeu a proposta de numero 31 do processo 31
+O processo 45 recebeu a proposta de numero 31 do processo 31
+O processo 46 recebeu a proposta de numero 31 do processo 31
+O processo 47 recebeu a proposta de numero 31 do processo 31
+O processo 48 recebeu a proposta de numero 31 do processo 31
+O processo 49 recebeu a proposta de numero 31 do processo 31
+O processo 50 recebeu a proposta de numero 31 do processo 31
+O processo 51 recebeu a proposta de numero 31 do processo 31
+O processo 52 recebeu a proposta de numero 31 do processo 31
+O processo 53 recebeu a proposta de numero 31 do processo 31
+O processo 54 recebeu a proposta de numero 31 do processo 31
+O processo 55 recebeu a proposta de numero 31 do processo 31
+O processo 56 recebeu a proposta de numero 31 do processo 31
+O processo 57 recebeu a proposta de numero 31 do processo 31
+O processo 58 recebeu a proposta de numero 31 do processo 31
+O processo 59 recebeu a proposta de numero 31 do processo 31
+O processo 60 recebeu a proposta de numero 31 do processo 31
+O processo 61 recebeu a proposta de numero 31 do processo 31
+O processo 62 recebeu a proposta de numero 31 do processo 31
+O processo 63 recebeu a proposta de numero 31 do processo 31
+O processo 31 recebeu do processo 0 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 1
+----------------------------------------
+
+O processo 31 recebeu do processo 1 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 2
+----------------------------------------
+
+O processo 31 recebeu do processo 2 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 3
+----------------------------------------
+
+O processo 31 recebeu do processo 3 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 4
+----------------------------------------
+
+O processo 31 recebeu do processo 4 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 5
+----------------------------------------
+
+O processo 31 recebeu do processo 5 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 6
+----------------------------------------
+
+O processo 31 recebeu do processo 6 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 7
+----------------------------------------
+
+O processo 31 recebeu do processo 7 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 8
+----------------------------------------
+
+O processo 31 recebeu do processo 8 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 9
+----------------------------------------
+
+O processo 31 recebeu do processo 9 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 10
+----------------------------------------
+
+O processo 31 recebeu do processo 10 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 11
+----------------------------------------
+
+O processo 31 recebeu do processo 11 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 12
+----------------------------------------
+
+O processo 31 recebeu do processo 12 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 13
+----------------------------------------
+
+O processo 31 recebeu do processo 13 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 14
+----------------------------------------
+
+O processo 31 recebeu do processo 14 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 15
+----------------------------------------
+
+O processo 31 recebeu do processo 15 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 16
+----------------------------------------
+
+O processo 31 recebeu do processo 16 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 17
+----------------------------------------
+
+O processo 31 recebeu do processo 17 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 18
+----------------------------------------
+
+O processo 31 recebeu do processo 18 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 19
+----------------------------------------
+
+O processo 31 recebeu do processo 19 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 20
+----------------------------------------
+
+O processo 31 recebeu do processo 20 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 21
+----------------------------------------
+
+O processo 31 recebeu do processo 21 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 22
+----------------------------------------
+
+O processo 31 recebeu do processo 22 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 23
+----------------------------------------
+
+O processo 31 recebeu do processo 23 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 24
+----------------------------------------
+
+O processo 31 recebeu do processo 24 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 25
+----------------------------------------
+
+O processo 31 recebeu do processo 25 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 26
+----------------------------------------
+
+O processo 31 recebeu do processo 26 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 27
+----------------------------------------
+
+O processo 31 recebeu do processo 27 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 28
+----------------------------------------
+
+O processo 31 recebeu do processo 28 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 29
+----------------------------------------
+
+O processo 31 recebeu do processo 29 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 30
+----------------------------------------
+
+O processo 31 recebeu do processo 30 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 31
+----------------------------------------
+
+O processo 31 acrescenta seu proprio prepare response no vetor
+O processo 31 recebeu do processo 32 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 33
+----------------------------------------
+
+O processo 31 recebeu do processo 33 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 34
+----------------------------------------
+
+O processo 31 recebeu do processo 34 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 35
+----------------------------------------
+
+O processo 31 recebeu do processo 35 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 36
+----------------------------------------
+
+O processo 31 recebeu do processo 36 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 37
+----------------------------------------
+
+O processo 31 recebeu do processo 37 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 38
+----------------------------------------
+
+O processo 31 recebeu do processo 38 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 39
+----------------------------------------
+
+O processo 31 recebeu do processo 39 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 40
+----------------------------------------
+
+O processo 31 recebeu do processo 40 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 41
+----------------------------------------
+
+O processo 31 recebeu do processo 41 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 42
+----------------------------------------
+
+O processo 31 recebeu do processo 42 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 43
+----------------------------------------
+
+O processo 31 recebeu do processo 43 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 44
+----------------------------------------
+
+O processo 31 recebeu do processo 44 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 45
+----------------------------------------
+
+O processo 31 recebeu do processo 45 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 46
+----------------------------------------
+
+O processo 31 recebeu do processo 46 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 47
+----------------------------------------
+
+O processo 31 recebeu do processo 47 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 48
+----------------------------------------
+
+O processo 31 recebeu do processo 48 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 49
+----------------------------------------
+
+O processo 31 recebeu do processo 49 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 50
+----------------------------------------
+
+O processo 31 recebeu do processo 50 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 51
+----------------------------------------
+
+O processo 31 recebeu do processo 51 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 52
+----------------------------------------
+
+O processo 31 recebeu do processo 52 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 53
+----------------------------------------
+
+O processo 31 recebeu do processo 53 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 54
+----------------------------------------
+
+O processo 31 recebeu do processo 54 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 55
+----------------------------------------
+
+O processo 31 recebeu do processo 55 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 56
+----------------------------------------
+
+O processo 31 recebeu do processo 56 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 57
+----------------------------------------
+
+O processo 31 recebeu do processo 57 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 58
+----------------------------------------
+
+O processo 31 recebeu do processo 58 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 59
+----------------------------------------
+
+O processo 31 recebeu do processo 59 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 60
+----------------------------------------
+
+O processo 31 recebeu do processo 60 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 61
+----------------------------------------
+
+O processo 31 recebeu do processo 61 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 62
+----------------------------------------
+
+O processo 31 recebeu do processo 62 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 63
+----------------------------------------
+
+O processo 31 recebeu do processo 63 o prepare response (numero 31, valor 0)
+
+----------------------------------------
+Proposta numero: 31
+prepare request enviados: 63
+prepare response recebidos: 64
+----------------------------------------
+
+>>> Recebeu resposta da maioria!!
+O processo 31 enviou um accept request para o processo 0 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 1 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 2 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 3 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 4 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 5 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 6 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 7 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 8 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 9 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 10 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 11 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 12 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 13 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 14 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 15 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 16 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 17 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 18 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 19 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 20 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 21 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 22 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 23 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 24 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 25 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 26 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 27 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 28 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 29 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 30 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 32 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 33 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 34 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 35 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 36 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 37 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 38 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 39 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 40 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 41 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 42 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 43 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 44 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 45 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 46 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 47 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 48 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 49 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 50 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 51 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 52 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 53 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 54 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 55 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 56 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 57 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 58 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 59 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 60 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 61 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 62 (numero 31,valor 2)
+O processo 31 enviou um accept request para o processo 63 (numero 31,valor 2)
+processo 0 decidiu pelo valor 2
+O processo 0 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 1 decidiu pelo valor 2
+O processo 1 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 2 decidiu pelo valor 2
+O processo 2 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 3 decidiu pelo valor 2
+O processo 3 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 4 decidiu pelo valor 2
+O processo 4 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 5 decidiu pelo valor 2
+O processo 5 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 6 decidiu pelo valor 2
+O processo 6 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 7 decidiu pelo valor 2
+O processo 7 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 8 decidiu pelo valor 2
+O processo 8 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 9 decidiu pelo valor 2
+O processo 9 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 10 decidiu pelo valor 2
+O processo 10 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 11 decidiu pelo valor 2
+O processo 11 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 12 decidiu pelo valor 2
+O processo 12 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 13 decidiu pelo valor 2
+O processo 13 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 14 decidiu pelo valor 2
+O processo 14 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 15 decidiu pelo valor 2
+O processo 15 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 16 decidiu pelo valor 2
+O processo 16 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 17 decidiu pelo valor 2
+O processo 17 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 18 decidiu pelo valor 2
+O processo 18 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 19 decidiu pelo valor 2
+O processo 19 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 20 decidiu pelo valor 2
+O processo 20 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 21 decidiu pelo valor 2
+O processo 21 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 22 decidiu pelo valor 2
+O processo 22 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 23 decidiu pelo valor 2
+O processo 23 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 24 decidiu pelo valor 2
+O processo 24 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 25 decidiu pelo valor 2
+O processo 25 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 26 decidiu pelo valor 2
+O processo 26 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 27 decidiu pelo valor 2
+O processo 27 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 28 decidiu pelo valor 2
+O processo 28 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 29 decidiu pelo valor 2
+O processo 29 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 30 decidiu pelo valor 2
+O processo 30 atualizou seu proprio registrador com o valor 2 e envia o accept response
+O processo proposer atualiza seu registrador com o valor 2
+processo 32 decidiu pelo valor 2
+O processo 32 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 33 decidiu pelo valor 2
+O processo 33 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 34 decidiu pelo valor 2
+O processo 34 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 35 decidiu pelo valor 2
+O processo 35 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 36 decidiu pelo valor 2
+O processo 36 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 37 decidiu pelo valor 2
+O processo 37 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 38 decidiu pelo valor 2
+O processo 38 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 39 decidiu pelo valor 2
+O processo 39 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 40 decidiu pelo valor 2
+O processo 40 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 41 decidiu pelo valor 2
+O processo 41 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 42 decidiu pelo valor 2
+O processo 42 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 43 decidiu pelo valor 2
+O processo 43 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 44 decidiu pelo valor 2
+O processo 44 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 45 decidiu pelo valor 2
+O processo 45 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 46 decidiu pelo valor 2
+O processo 46 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 47 decidiu pelo valor 2
+O processo 47 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 48 decidiu pelo valor 2
+O processo 48 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 49 decidiu pelo valor 2
+O processo 49 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 50 decidiu pelo valor 2
+O processo 50 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 51 decidiu pelo valor 2
+O processo 51 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 52 decidiu pelo valor 2
+O processo 52 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 53 decidiu pelo valor 2
+O processo 53 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 54 decidiu pelo valor 2
+O processo 54 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 55 decidiu pelo valor 2
+O processo 55 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 56 decidiu pelo valor 2
+O processo 56 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 57 decidiu pelo valor 2
+O processo 57 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 58 decidiu pelo valor 2
+O processo 58 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 59 decidiu pelo valor 2
+O processo 59 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 60 decidiu pelo valor 2
+O processo 60 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 61 decidiu pelo valor 2
+O processo 61 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 62 decidiu pelo valor 2
+O processo 62 atualizou seu proprio registrador com o valor 2 e envia o accept response
+processo 63 decidiu pelo valor 2
+O processo 63 atualizou seu proprio registrador com o valor 2 e envia o accept response
+-----------------------------------------------------------------------
+                    RESULTADOS
+Quantidade de prepare request enviados: 63
+Quantidade de prepare response recebidos: 63
+Quantidade de accept request enviados: 63
+Quantidade de accept response recebidos: 63
+Quantidade total de mensagens trocadas: 252
+-----------------------------------------------------------------------
+
